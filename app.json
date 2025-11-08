@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "React CC",
+    "slug": "react-cc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#dc2626"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.christmascountdown.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#dc2626"
+      },
+      "package": "com.christmascountdown.app",
+      "permissions": [
+        "NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#dc2626"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1f7208c5-92e6-4193-ba13-8540c8a285fb"
+      }
+    }
+  }
+}
